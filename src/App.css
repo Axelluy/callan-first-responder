@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.jesus {
+  max-width: 200px;
+  max-height: 100px;
+  height: 100%;
+}
+
+.mw-400 {
+  max-width: 400px;
+}
+
+i {
+  margin-right: 5px;
+}
+
+.gallery {
+  /* display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #278841;
+
+  gap: 20px;
+  padding: 85px 20px 0 20px;
+}
+
+.gallery-img {
+  max-width: 100%;
+  border: solid 8px white;
+  border-radius: 6px;
+}
+
+.gallery-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Init Team page style */
+
+
+.team {
+  margin-top: 85px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team img {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.team-member {
+  display: flex;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(39, 136, 65, 0.9);
+  width: 50%;
+}
+
+.team-member p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  line-height: 1;
+  color: white;
+  
+}
+
+/* End Team */
+
+
+/* Footer Home init */
+
+.footer-map {
+  z-index: 1;
+}
