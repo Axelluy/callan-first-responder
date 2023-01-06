@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const IntroContainer = styled.div`
-  background-image: url(https://becomeacfr.ie/wp-content/uploads/2022/05/NAS_Stills65-scaled.jpg);
+  background-image: url(https://scontent.fdub3-2.fna.fbcdn.net/v/t39.30808-6/317975751_740024140885736_5505161808569938983_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Gdy4YDWCCEAX_xOMo1&_nc_ht=scontent.fdub3-2.fna&oh=00_AfDXmcMBnji_2UNBYVCmT-bGKTBhlnMUhYt8glhO6HtTXA&oe=63B833AE);
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
@@ -9,7 +9,7 @@ export const IntroContainer = styled.div`
   height: 85vh;
   position: relative;
   display: grid;
-  padding: 20px;
+  padding: 0 20px;
 
   /* @media only screen and (max-width: 700px) {
     flex-direction: column;
@@ -24,42 +24,48 @@ export const ColorContainer = styled.div`
   opacity: 0.6;
 `;
 
+export const Title = styled.h1`
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  margin: 100px 0 0 0;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 2.188rem;
+  }
+`;
+
 export const Left = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   z-index: 1;
-  @media only screen and (max-width: 700px) {
+
+  @media only screen and (max-width: 600px) {
     width: 100%;
     height: 100%;
   }
 `;
 
-export const Title = styled.h1`
-  font-size: 48px;
-  color: white;
-  text-align: center;
-  z-index: 1;
-  /* @media only screen and (max-width: 700px) {
-    width: 100%;
-  } */
-`;
-
 export const Desc = styled.p`
   color: white;
-  width: 60%;
+  width: 100%;
+  max-width: 800px;
   font-size: 18px;
   text-align: center;
-  /* @media only screen and (max-width: 700px) {
-    width: 100%;
-  } */
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
 `;
 
 export const Right = styled.div`
   z-index: 1;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
   text-align: center;
 
@@ -69,21 +75,12 @@ export const Right = styled.div`
 `;
 
 export const Info = styled.div`
+  flex-direction: column;
+  display: flex;
  
   @media only screen and (max-width: 700px) {
     width: 100%;
   }
-`;
-
-export const Button = styled.button`
-  border-radius: 6px;
-  border: none;
-  padding: 20px;
-  background-color: #42b72a;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 2px;
-  margin-top: 5px;
 `;
 
 export const Contact = styled.div`

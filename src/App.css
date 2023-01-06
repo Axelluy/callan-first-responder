@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 .jesus {
@@ -34,7 +35,17 @@ i {
   background-color: #278841;
 
   gap: 20px;
-  padding: 85px 20px 0 20px;
+  padding: 85px 20px 0 20px;  
+}
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .gallery-img {
@@ -71,6 +82,11 @@ i {
   background-color: rgba(39, 136, 65, 0.9);
   width: 50%;
 }
+@media (max-width: 900px) {
+  .team-member {
+    width: 100%;
+  }
+}
 
 .team-member p {
   margin-top: 10px;
@@ -78,7 +94,7 @@ i {
   margin-left: 10px;
   line-height: 1;
   color: white;
-  
+
 }
 
 /* End Team */
@@ -88,4 +104,162 @@ i {
 
 .footer-map {
   z-index: 1;
+}
+
+/* End Footer Home init */
+
+/* General  */
+
+.link-button {
+  border-radius: 6px;
+  border: none;
+  padding: 30px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+.intro-general {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  padding: 20px 40px ;
+}
+
+.general {
+  padding: 10px 10px;
+  color: black;
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.intro-general .row {
+  /* gap: 20px; */
+}
+
+.intro-bio {
+  max-width: 220px;
+  border: solid 2px #278841;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.img-general {
+  max-width: 600px;
+}
+
+.icon-bio {
+
+  font-size: 20px;
+  color: var(--global-palette4, #2D3748);
+  background: transparent;
+  border-color: var(--global-palette4, #2D3748);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.intro-general p {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Form */
+
+.form-container {
+  background-image: url(https://becomeacfr.ie/wp-content/uploads/2022/05/NAS_Stills65-scaled.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 85vh;
+  position: relative;
+  display: grid;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.form-color {
+  background-color: #278841;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.6;
+}
+
+.form-container form  {
+  z-index: 2;
+  color: white;
+  overflow-y: scroll;
+}
+
+.form-label {
+  padding: 0 10px;
+}
+
+.form-title {
+  color: white;
+  z-index: 2;
+}
+
+/* EAD */
+
+.ead-container{
+  background-color: #278841;;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ead-container h1 {
+  color: white;
+  text-align: center;
+}
+
+.ead-container p {
+  color: white;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 18px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .ead-container p {
+    width: 100%;
+    margin: 20px;
+  }
+}
+
+.ead-container .fa-solid {
+  font-size: 100px;
+  color: white;
+  padding: 20px;
+}
+
+.table-container {
+  color: white;
+  border: solid white 1px;
+  margin: 0 auto;
+}
+
+.table-container td {
+  border: solid white 1px;
+  padding: 5px;
+
+}
+
+.event {
+  padding-top: 20px;
+}
+
+.table-title {
+  color: red;
 }

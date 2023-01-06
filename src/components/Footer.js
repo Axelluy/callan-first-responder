@@ -47,29 +47,29 @@ class Footer extends Component {
                 target="_blank"
                 href="https://www.facebook.com/callancfr"
               >
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-facebook"></i>
                 Facebook
               </FooterLink>
               <FooterLink
                 target="_blank"
                 href="https://www.instagram.com/callancfr/?hl=en"
               >
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
                 Instagram
               </FooterLink>
               <FooterLink
                 target="_blank"
                 href="https://www.youtube.com/channel/UCUfN-sC92PrXGn6WHzYfp2w"
               >
-                <i class="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-youtube"></i>
                 YouTube
               </FooterLink>
               <FooterLink target="_blank" href="https://twitter.com/CallanC">
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
                 Twitter
               </FooterLink>
               <FooterLink target="_blank">
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
                 callanfirstresponders@gmail.com
               </FooterLink>
             </Media>

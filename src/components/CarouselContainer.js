@@ -12,10 +12,6 @@ import img10 from "../assests/img10.jpg";
 import img11 from "../assests/img11.jpg";
 import img12 from "../assests/img12.jpg";
 
-
-
-
-
 class DemoCarousel extends Component {
     render() {
         return (
@@ -32,10 +28,7 @@ class DemoCarousel extends Component {
                 <img className='gallery-img'src={img5} />
                 <img className='gallery-img'src={img3} />
                 <img className='gallery-img'src={img4} />
-                
-            </div>
-                
-              
+            </div>              
         );
     }
 }

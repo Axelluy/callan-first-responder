@@ -15,12 +15,12 @@ import LogoImg from "../assests/logo.png";
 
 function NavBar() {
   const [extendNavBar, setExtendNavBar] = useState(false);
-
+  
   return (
     <NavBarContainer extendNavBar={extendNavBar}>
       <NavBarInnerContainer>
         <LeftContainer>
-          <Logo src={LogoImg}></Logo>
+          <Logo id="logo" src={LogoImg}></Logo>
         </LeftContainer>
         <RightContainer>
           <NavBarLinkContainer>
@@ -28,10 +28,13 @@ function NavBar() {
             <NavBarLink>Become a CFR</NavBarLink> 
             <NavBarLink to="/gallery">Gallery</NavBarLink>
             <NavBarLink to="/team">Meet the Team</NavBarLink>
+            <NavBarLink to="/ead">Callan AED's</NavBarLink>
 
             <OpenLinksButton
               onClick={() => {
                 setExtendNavBar((curr) => !curr);
+                const logo = document.getElementById('logo');
+                logo.style.display = extendNavBar ? 'block' : 'none';
               }}
             >
               {extendNavBar ? <> &#10005; </> : <> &#8801;</>}

@@ -23,9 +23,10 @@ export const FooterLink = styled.a`
     transition: 200ms ease-in;
   }
 `;
+
 export const SponsorShips = styled.div`
   display: flex;
-  height: 100px;
+  flex-wrap: wrap;
   gap: 30px;
 `;
 
@@ -40,7 +41,9 @@ export const Media = styled.div`
   display: flex;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
 `;
+
 export const FooterMap = styled.div`
   text-align: center;
   display: grid;

@@ -3,11 +3,75 @@ import team1 from "../assests/team1.jpg";
 import team2 from "../assests/team2.jpg";
 import team3 from "../assests/team3.jpg";
 import team4 from "../assests/team4.jpg";
+import team5 from "../assests/team5.jpeg";
+import team6 from "../assests/team6.jpeg";
+import team7 from "../assests/team7.jpeg";
+import team8 from "../assests/team8.jpeg";
+import team9 from "../assests/team9.jpeg";
+import team10 from "../assests/team10.jpeg";
+
 
 class Team extends Component {
   render() {
     return (
-      <div className="team">
+      <div className="team ">
+        <div className="team-member">
+          <img className="img4" src={team7} />
+          <div>
+            <p>
+              Tanya Mullins is from Dublin and has been living in Callan for 25 years. Tanya is a Social care worker in disability services.
+
+            </p>
+            <p>
+              n rural areas around Ireland an ambulance may need to travel a
+              long distance to assist someone suffering from a cardiac or
+              respiratory arrest, ineffective breathing or choking.
+            </p>
+            <p>
+              Tanya firmly believes time is critical when it comes to all medical emergencies:
+              In the case of a stroke occurring the sooner a person receives treatment for a stroke,
+              the less damage is likely to happen.
+
+            </p>
+            <p>Effective CPR can save a life.</p>
+          </div>
+
+        </div>
+        <div className="team-member">
+          <img className="img5" src={team5} />
+          <div>
+            <p>
+              Linda Adriano, is originally from Dublin but has lived in Callan for 16 years.
+              She is the group scheme coordinator for the community first responders group (CFR) and liaison officer with the national ambulance service (NAS).
+            </p>
+            <p>
+              Linda is a First Responder Instructor and all volunteers are trained to PHECC standards: she encourages everyone to learn CPR to help loved ones in their time of need.
+            </p>
+            <p>
+              Working in healthcare for a number of years, it's apparent that delays in emergency response times to rural areas can be considerably delayed.
+              For that reason she felt the community would benefit greatly from this service.
+            </p>
+            <p>Effective CPR can save a life.</p>
+          </div>
+
+        </div>
+        <div className="team-member">
+          <img className="img4" src={team8} />
+          <div>
+            <p>
+              Ann Marie & Linda originally established the CFR Group in Jan 2020, a service Callan desperately needed.
+            </p>
+            <p>
+              mergency response times to rural towns were at a critical point. Together they saw an opportunity to help the community.
+            </p>
+            <p>
+              Ann Marie works in Camphill community and was also working in KCAT for many years.
+
+            </p>
+            <p>Effective CPR can save a life.</p>
+          </div>
+
+        </div>
         <div className="team-member">
           <img src={team1} />
           <div>
@@ -53,7 +117,6 @@ class Team extends Component {
             <p>Effective CPR can save a life.</p>
           </div>
         </div>
-
         <div className="team-member">
           <img src={team3} />
           <div>
@@ -100,6 +163,63 @@ class Team extends Component {
             </p>
             <p>Effective CPR can save a life.</p>
           </div>
+
+        </div>
+        <div className="team-member">
+          <img className="img4" src={team6} />
+          <div>
+            <p>
+              Miriam Grace is from Callan and joined the group in April 2021
+              with previous first aid experience as a first responder. Miriam
+              works locally & can respond to an emergency within minutes, when
+              on call
+            </p>
+            <p>
+              n rural areas around Ireland an ambulance may need to travel a
+              long distance to assist someone suffering from a cardiac or
+              respiratory arrest, ineffective breathing or choking.
+            </p>
+            <p>
+              By volunteering, Miriam can be that vital link in the chain of
+              survival. All CFR's carry a defibrillator on calls & have been
+              fully trained to PHECC standards. Miriam is a huge asset to our
+              team.
+            </p>
+            <p>Effective CPR can save a life.</p>
+          </div>
+
+        </div>
+        <div className="team-member">
+          <img className="img4" src={team9} />
+          <div>
+            <p>
+              Kelly Ann Brett, is originally from Belfast but moved to Callan 22 years ago and a mum of 3 children. Kelly Ann volunteered with St Johns ambulance for quite some time, so her experience is invaluable on the team.
+            </p>
+            <p>
+              When she joined the group in April 2021, as a volunteer, Kelly Ann wanted to have a positive impact in the community.
+            </p>
+            <p>
+              Her role is to help stabilize the patient and provide the appropriate care including CPR & defibrillation, until the more highly skilled ambulance crew arrives on scene to take over the treatment.
+            </p>
+            <p>Effective CPR can save a life.</p>
+          </div>
+
+        </div>
+        <div className="team-member">
+          <img className="img4" src={team10} />
+          <div>
+            <p>
+              Laura Doheny is from Dublin. She moved to Callan when she got married and has has lived in Callan since.
+            </p>
+            <p>
+              Laura works in Poe Kiely Solicitors as a Legal Secretary. She joined us in February 2020 and we all went live together with the national ambulance service in June 2021, post covid.
+            </p>
+            <p>
+              Laura is well known in the community and wanted to be part of this life saving scheme in Callan, her home town.
+            </p>
+            <p>Effective CPR can save a life.</p>
+          </div>
+
         </div>
       </div>
     );
