@@ -8,6 +8,7 @@ import Form from "./components/Form";
 import Ead from "./components/Ead";
 
 
+
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+       
         <Route path="/gallery" element={<CarouselContainer />} />
         <Route path="/team" element={<Team />} />
         <Route path="/form" element={<Form />} /> 

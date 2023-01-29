@@ -22,7 +22,7 @@ class Intro extends Component {
         <IntroContainer>
           <ColorContainer></ColorContainer>
           <Title>
-            Become a Community<br></br>First Responder
+            Community<br></br>First Responders
           </Title>
           <Left>
             <Desc>
@@ -53,14 +53,11 @@ class Intro extends Component {
 
               </div>
               <h3>
-                Callan first responders
-
+                Callan First Responders
               </h3>
-              are alerted directly, by the national ambulance service,
-              to potentially life threatening emergency calls such as Cardiac Arrest,
-              chest pains and stroke calls.
-              At present we respond to calls within a 5km radius of Callan.
-
+              When a 999/112 call is made our volunteers are dispatched simultaneously with the emergency services.
+              We are alerted to potentially life threatening emergency calls such as cardiac arrest, chest pains and stroke calls.
+              At present we respond to emergency calls within a 5km radius of Callan.
             </div>
             <div className="intro-bio">
               <div className="icon-bio">
@@ -68,22 +65,23 @@ class Intro extends Component {
                 <i className="fa-solid fa-person"></i>
               </div>
               <h3>
-                Community training
+                Community First Responders “On scene”
               </h3>
-              With more volunteers we will be in a position to extend this distance,
-              if you are interested in hearing more, click on "Join us" for more information.
-
+              As we are all local; our aim is to arrive before the emergency services to assist them by initially assessing the patient's condition.
+              This allows us to accurately communicate this information to the paramedics on route & arrival.
+              The responder on call will always carry a mobile defibrillator.
+              If a cardiac event was to occur whilst on scene, the responders would combine CPR & AED immediately to double or triple the chances of survival.
+              They would continue to do so, until the emergency services arrive to take over.
             </div>
             <div className="intro-bio">
               <div className="icon-bio">
                 <i className="fa-solid fa-truck-medical"></i>
               </div>
               <h3>
-                Community first responders
+                How can you help?
               </h3>
-              If we arrive before the emergency services, we initially assess the patient's condition,
-              allowing us to accurately communicate this information to the paramedics on route.
-              The responder on call will always carry a mobile AED (Automated external defibrillators).
+              When you call 999/112 always give your EIRCODE address, turn your house & car lights on and ask somebody to go outside and wait for the ambulance.
+              Possibly pack an overnight bag and gather any prescribed medication the patient takes.
 
             </div>
             <div className="intro-bio">
@@ -91,12 +89,13 @@ class Intro extends Component {
                 <i className="fa-solid fa-heart-pulse"></i>
               </div>
               <h3>
-                Public access CPR & AED
+                Community Training
               </h3>
-              In the case of a cardiac arrest immediate resustition can commence by combining CPR & AED to double that patient's chance of survival.
-              When you call 999/112 always give your EIRCODE address, turn your house lights on and ask somebody to go outside and wait for the ambulance.
-
+              We will hold regular training for the community to learn how to do CPR and use a AED effectively.
+              We encourage you to learn as you could save a life, the more by-standers who know how to do CPR increases the person’s chances.
+              Contact us for information on training. Whilst there is no charge for training, donations are very much appreciated to help towards training equipment, on-going maintenance costs and responder equipment.
             </div>
+           
 
           </div>
           {/* <img className="img-general" src={img14} /> */}

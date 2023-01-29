@@ -70,7 +70,7 @@ class Footer extends Component {
               </FooterLink>
               <FooterLink target="_blank">
                 <i className="fa-solid fa-envelope"></i>
-                callanfirstresponders@gmail.com
+                <a href="mailto:axel_luy@hotmail.com"> Email</a>
               </FooterLink>
             </Media>
           </FooterMedia>

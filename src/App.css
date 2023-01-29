@@ -70,7 +70,7 @@ i {
 
 .team img {
   max-width: 100%;
-  width: 200px;
+  width: 160px;
   height: 200px;
 }
 
@@ -262,4 +262,13 @@ i {
 
 .table-title {
   color: red;
+}
+
+
+.become-cfr {
+  color: #278841;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin: 10px;
 }

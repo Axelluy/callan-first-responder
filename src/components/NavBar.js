@@ -25,7 +25,7 @@ function NavBar() {
         <RightContainer>
           <NavBarLinkContainer>
             <NavBarLink to="/">Home</NavBarLink>
-            <NavBarLink>Become a CFR</NavBarLink> 
+            <a  className="become-cfr" href="https://becomeacfr.ie/#" target="_blank">Become a CFR</a>
             <NavBarLink to="/gallery">Gallery</NavBarLink>
             <NavBarLink to="/team">Meet the Team</NavBarLink>
             <NavBarLink to="/ead">Callan AED's</NavBarLink>
@@ -45,10 +45,10 @@ function NavBar() {
       {extendNavBar && (
         <NavBarExtendedContainer>
           <NavBarLinkExtended to="/">Home</NavBarLinkExtended>
-          <NavBarLinkExtended to="">Get Starded</NavBarLinkExtended>
-          <NavBarLinkExtended to="/information">Information</NavBarLinkExtended>
-          <NavBarLinkExtended to="/contact">Contact</NavBarLinkExtended>
-          <NavBarLinkExtended to="/about">About Us</NavBarLinkExtended>
+          <a  className="become-cfr" href="https://becomeacfr.ie/#" target="_blank">Become a CFR</a>
+          <NavBarLinkExtended to="/gallery">Gallery</NavBarLinkExtended>
+          <NavBarLinkExtended to="/team">Meet the Team</NavBarLinkExtended>
+          <NavBarLinkExtended to="/ead">Callan AED's</NavBarLinkExtended>
         </NavBarExtendedContainer>
       )}
     </NavBarContainer>

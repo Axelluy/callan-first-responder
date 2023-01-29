@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const IntroContainer = styled.div`
-  background-image: url(https://scontent.fdub3-2.fna.fbcdn.net/v/t39.30808-6/317975751_740024140885736_5505161808569938983_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Gdy4YDWCCEAX_xOMo1&_nc_ht=scontent.fdub3-2.fna&oh=00_AfDXmcMBnji_2UNBYVCmT-bGKTBhlnMUhYt8glhO6HtTXA&oe=63B833AE);
+  background-image: url(https://scontent.fdub6-1.fna.fbcdn.net/v/t39.30808-6/317975751_740024140885736_5505161808569938983_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=GZg9axFNdIYAX_K9k5f&_nc_ht=scontent.fdub6-1.fna&oh=00_AfDjEJ8LGAIgDneMZJmDC9FJvH_l3QssSEOL1iGv0j4u0g&oe=63C9FFEE);
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
